@@ -50,15 +50,16 @@ public class Menu {
         }
         return max;
     }
-private static double averageSalary(){
+    private static double averageSalary(){
         return (double) sumSalary() / employees.length;
 
-}
-private static void printEmployeesFullName(){
+    }
+    private static void printEmployeesFullName(){
         for(Employee employee: employees){
             System.out.println(employee.getFullName());
         }
 
-}
+    }
 
 }
+//

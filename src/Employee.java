@@ -1,18 +1,18 @@
 public class Employee {
     private static int idCounter;
     private final int id;
-private String fullName;
-private int department;
-private int salary;
+    private String fullName;
+    private int department;
+    private int salary;
 
     public Employee(String fullName, int department, int salary){
-    this.id = idCounter++;
-this.fullName = fullName;
-this.department = department;
-this.salary = salary;
+        this.id = idCounter++;
+        this.fullName = fullName;
+        this.department = department;
+        this.salary = salary;
 
 
-}
+    }
 
     public int getId() {
         return id;
@@ -28,7 +28,7 @@ this.salary = salary;
 
     public int getSalary() {
         return salary;
- }
+    }
 
 
 
@@ -50,3 +50,4 @@ this.salary = salary;
                 '}';
     }
 }
+//

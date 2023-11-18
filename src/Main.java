@@ -30,8 +30,8 @@ public class Main {
         System.out.println("Cотрудник с max ЗП = " + max);
         System.out.println();
 
-       int sum = 0;
-       int average = employees[0].getSalary();
+        int sum = 0;
+        int average = employees[0].getSalary();
         for (int i = 0; i < employees.length; i++) {
             sum+= employees[i].getSalary();
 
@@ -42,3 +42,4 @@ public class Main {
 
     }
 }
+//
